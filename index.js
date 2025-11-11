@@ -3,7 +3,7 @@ randomNumber1 = Math.random();
 randomNumber1 = Math.floor(Math.random() * 6) + 1;
 console.log(randomNumber1);
 
-var randomDiceImage = "dice" + randomNumber1 + ".png";
+var randomDiceImage = "images/dice" + randomNumber1 + ".png";
 document.querySelector('.img1').setAttribute('src', randomDiceImage );
 
 
@@ -12,7 +12,7 @@ randomNumber2 = Math.random();
 randomNumber2 = Math.floor(Math.random() * 6) + 1;
 console.log(randomNumber2);
 
-var randomDiceImage2 = "dice" + randomNumber2 + ".png";
+var randomDiceImage2 = "images/dice" + randomNumber2 + ".png";
 document.querySelector('.img2').setAttribute('src', randomDiceImage2 );
 
 if (randomNumber1 > randomNumber2) {
